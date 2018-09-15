@@ -1,0 +1,22 @@
+{
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "author": "meesam",
+  "license": "ISC",
+  "dependencies": {
+    "@types/restify": "^7.2.4",
+    "nodemon": "^1.18.4",
+    "pg": "^7.4.3",
+    "reflect-metadata": "^0.1.12",
+    "restify": "^7.2.1",
+    "rimraf": "^2.6.2",
+    "ts-node": "^7.0.1",
+    "typeorm": "^0.2.7",
+    "typescript": "^3.0.3"
+  }
+}
